@@ -20,7 +20,7 @@ Then, include the following script in your html and you are ready to go:
 
 ### set userID
 ```
-// currently only piwik support userId
+// currently only piwik and google analytics support userId
 gta.setUserId('userxxxxxid')
 ```
 
@@ -55,3 +55,4 @@ If `data-label` `data-action` `data-category` `data-value` is not provided then 
 * [google](https://developers.google.com/analytics/devguides/collection/analyticsjs/)
 * [baidu](http://tongji.baidu.com/open/api/more?p=ref_trackPageview)
 * [Mixpanel](http://piwik.org/)
+* [piwik](http://piwik.org/docs/tracking-api/#javascript-client-for-tracking-api)
